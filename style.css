@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.keyboard{
+    background-color: rgb(157, 157, 167);
+    height: 300px;
+    width: 1007px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key{
+    min-width: 45px;
+    height: 40px;
+    border: 1px solid rgb(39, 39, 39);
+    background-color: rgb(172, 172, 172);
+    margin: 2px;
+    padding: 1px;
+}
+
+input{
+    background-color: rgb(162, 190, 216);
+    height: 100px;
+    width: 1000px;
+    border: 2px solid black;
+}
+
+#backspace{
+    min-width: 151px;
+    background-color: rgb(194, 61, 44);
+}
+#tab{
+    min-width: 80px;
+    background-color: rgb(129, 146, 31);
+}
+#backSlash{
+    min-width: 116px;
+    background-color: rgb(82, 131, 120);
+}
+
+#capsLk{
+    min-width: 116px;
+    background-color: rgb(141, 38, 119);
+}
+#enter{
+    min-width: 133px;
+    background-color: rgb(137, 197, 150);
+}
+#leftShift{
+    min-width: 151px;
+}
+#rightShift{
+    min-width: 98px;
+}
+#leftCtrl{
+    min-width: 59px;
+}
+#space{
+    min-width: 290px;
+    color: rgb(172, 172, 172);
+}
+#rightCtrl{
+    min-width: 97px;
+}
+#up, #down, #left, #right {
+    background-color: rgb(179, 138, 85);
+}
+#leftShift, #rightShift {
+    background-color: rgb(105, 43, 2);
+}
+
+#delete{
+    background-color: rgb(211, 0, 0);
+}
+#leftCtrl, #rightCtrl{
+    background-color: rgb(6, 54, 0);
+}
+#leftAlt, #rightAlt{
+    background-color: rgb(42, 47, 88);
+}
+#escape{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#window{
+    background-color: rgb(7, 6, 6);
+    color: white;
+}
+#fn{
+    color: rgb(180, 0, 0);
+}
+#menu{
+    background-color: rgb(143, 105, 105);
+}
+
+#prtSc, #pause, #insert{
+    background-color: rgb(94, 94, 94);
+}
+
+.key:active {
+    border:1px #ffffff solid;
+    color: #ffffff;
+}
